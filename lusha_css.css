@@ -1,0 +1,199 @@
+/* CSS Document */
+body{
+	color:#FFF;
+	background-color: #787878;
+	font-size:14px;
+	margin:0;
+	padding:0;
+	}
+body p {
+		color:#FFF;}
+.bannerpages {
+	background-image: url(images/lusha4.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	height:140px;
+	background-color:#000;
+	margin-top:5px;
+	padding:0;
+	float:left;
+	width:100%;
+	}
+
+div a {
+	
+	text-decoration:none;}
+
+.topmenu a{
+	text-decoration:none;
+	}
+.topmenu{
+	text-align:right;
+	padding-right:100px;
+	font-size:20px;
+	background-image:url(images/topback.png);
+	background-repeat:repeat-x;
+	margin:0;}
+.topmenu a{
+	color: #FFF;
+	}
+.topmenu a:hover{
+	color:#000;
+	}
+.topmenu a:visited{
+	
+	//color: #F69;}
+
+.wrap{
+	text-align: left;
+	width: 99%;
+	margin:auto;
+	border: thin;
+	border-radius: 15px;
+	//padding: 0 5% 0 5%;
+	}
+.contentwrap{
+	padding: 0 5% 0 5%;
+	}
+	
+.header{
+	color:#FFF;
+	//width:100%;
+	padding: 0 5% 0 5%;
+	background-color:#09F;
+	height:90px;}
+.headerleft{
+	float:left;
+	color:#FFF;
+	width:40%;}
+.headercenter{
+	float:left;
+	width:35%;}	
+.headerright{
+	float:left;
+	color:#FFF;
+	width:25%;}	
+.menudiv{
+	margin:0;
+	padding:0;
+	float:left;
+	width:100%;
+	height:50px;
+	//padding: 0 5% 0 5%;
+	}
+.banner{
+		background-color: #000;
+		text-align:center;
+		float:left;
+		clear:both;
+		width:100%;
+		margin:0;
+		padding:0;
+				}
+.left{
+	clear: left;
+	width: 30%;
+	color:#FFF;
+	//padding: 0.5%;
+	background-color: #7D7D7D;
+	float:left; }
+.center{
+	width: 33%;
+	color:#FFF;
+	float: left;
+	padding-right: 1.5%;
+	padding-left: 1.5%;
+	background-color:#7D7D7D;
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+	}
+.right{
+	color:#FFF;
+	width: 32%;
+	padding: 0.5%;
+	background-color: #7D7D7D;
+	float:left;
+	margin: 0;
+	color:#FFF;
+	
+}
+.footer{
+	clear: both;
+	background-color:#BFBFBF;
+	padding: 0 5% 0 5%;
+		}
+.footer div p{
+	color:#FFF;}
+.wrap .footer p {
+	margin: 0px;
+	padding: 0px;
+	display: compact;
+	color:#FFF;
+}
+#boldens {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.bol {
+	font-size: larger;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFC;
+}
+
+.footerleft{	
+	width:23%;
+	color:#FFF;
+	float:left;
+	padding:1%;}
+.footercenter1{
+	width:23%;
+	float:left;
+	padding:1%;
+	//background-color:#E1E1E1;}
+.footercenter2{
+	width:23%;
+	float:left;
+	padding:1%;
+	}
+.footerright{
+	width:23%;
+	float:left;
+	padding:1%;
+	//background-color:#E1E1E1;}
+#paid {
+	font-size: 18pt;
+	text-transform: uppercase;
+	color: #F00;
+	text-decoration: blink;
+	background-color:#999;
+	height: 100px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#copyright{
+	text-align:center;
+	clear:both;
+	color:#000;
+	background-color:#CCC;
+	}
+#myevents{
+		background-color: #CCC;
+		border:thick;
+		color:#000;
+	}
+.donate {
+	font-size: 17px;
+	color: #FFF;
+	background-color: #06F;
+	text-align: center;
+	//vertical-align: middle;
+	margin: auto;
+	//clear: both;
+	//float: left;
+	width: 99%;
+	height: 35px;
+}
+.heading {
+	font-size: 24px;

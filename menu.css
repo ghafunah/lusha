@@ -1,0 +1,90 @@
+#nav,#nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+	//padding: 0 5% 0 5%;
+}
+#nav {
+    background-color:#444;
+	background-image:url(images/links.png);
+	clear: both;
+    font-size: 12px;
+    height: 50px;
+    //padding: 0 0 0 9px;
+	padding: 0 5% 0 5%;
+    position: relative;
+}
+#nav ul {
+    background-color: #444;
+    border:1px dotted #000;
+    border-radius: 0 5px 5px 5px;
+    border-width: 0 1px 1px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    left: -9999px;
+    overflow: hidden;
+    position: absolute;
+    top: -9999px;
+    z-index: 2;
+
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+
+}
+
+#nav li {
+    float: left;
+    position: relative;
+	width:160px;
+}
+#nav li a {
+    color: #FFFFFF;
+    display:block;
+    float: left;
+    font-weight: normal;
+    height: 40px;
+    padding: 10px 10px 0;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+}
+#nav li:hover > a {
+    color: #FFC;
+}
+#nav li:hover, #nav a:focus, #nav a:hover, #nav a:active {
+    background: none repeat scroll 0 0 ;
+    outline: 0 none;
+    border-radius: 5px;
+
+}
+#nav li:hover ul.subs {
+    left: 0;
+    top: 50px;
+    width: 120%;
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+
+}
+
+#nav ul li {
+    background: none;
+    width: 120%;
+	border-bottom:1px dotted #000;
+}
+#nav ul li a {
+    float: none;
+}
+#nav ul li ul li {
+    height:auto;
+}
+#nav ul li:hover > a {
+    bbackground-color:#000;
+    color: #00B4FF;
+    border-radius: 5px;
+
+}
