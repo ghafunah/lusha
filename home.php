@@ -38,7 +38,7 @@
     <li>Lillian Kong'ani as the secretary.</li>
 </ul>
   <p>The  members present agreed to come up with the name, the objectives, and draft  constitution, draft strategic plan and membership fee.<br />
-    They agreed that the objectives should  revolve around Academics, Health, Social and civic awareness, environment and  the development of the area. </p>
+    They agreed that the objectives should  revolve around academics, health, social and civic awareness, environment and  the development of the area. </p>
   
   </div>
 <div class="right">
